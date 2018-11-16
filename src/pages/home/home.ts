@@ -7,8 +7,11 @@ import { NavController } from 'ionic-angular';
 })
 export class HomePage {
 
+  title: string;
+  comida: string[];
+
   constructor(public navCtrl: NavController) {
-
+    this.title = "Comida";
+    this.comida = ['Pizza', 'Hamburguesa', 'Nachos', 'Tortilla', 'Ensalada', 'Lentejas', 'Sopa'];
   }
-
 }
